@@ -20,12 +20,7 @@ void printLinkedList(Node * &head){
 
 int main()
 {
-    Node *head = new Node(5,
-     new Node(6, 
-     new Node(7,
-     new Node(8,
-     nullptr
-     ))));
+    Node *head = new Node(5,new Node(6, new Node(7,new Node(8,nullptr))));
      printLinkedList(head);
     return 0;
 }
